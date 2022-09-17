@@ -1,0 +1,15 @@
+.cover__background {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    min-height: 740px;
+    background-image: url(../../../images/cover-trains.jpg);
+    background-size: cover;
+}
+
+.cover__background:hover .cover__overlay {
+    opacity: 0.8;
+}
