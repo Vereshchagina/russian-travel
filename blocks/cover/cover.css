@@ -2,14 +2,31 @@
     margin: 0 auto;
     box-sizing: border-box;
     padding-top: 92px;
-    min-height: 832px;
+    max-height: 832px;
     max-width: 1184px;
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     color: #fff;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-    -moz-text-size-adjust: 100%; 
-    text-rendering: optimizeLegibility;
+}
+
+@media screen and (max-width: 1279px) {
+    .cover {
+        max-width: 1024px;
+        max-height: 732px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .cover {
+        max-width: 768px;
+        max-height: 570px;
+        padding-top: 90px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .cover {
+        max-width: 320px;
+        max-height: 266px;
+        padding-top: 66px;
+    }
 }

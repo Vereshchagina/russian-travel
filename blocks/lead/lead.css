@@ -8,12 +8,6 @@
     box-sizing: border-box;
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     color: #fff;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-    -moz-text-size-adjust: 100%; 
-    text-rendering: optimizeLegibility;
 }
 
 @media screen and (max-width: 1279px) {
@@ -26,5 +20,12 @@
 @media screen and (max-width: 1023px) {
     .lead {
         max-width: 768px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .lead {
+        min-width: 320px;
+        margin: 0;
     }
 }

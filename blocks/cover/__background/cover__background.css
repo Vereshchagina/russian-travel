@@ -13,3 +13,21 @@
 .cover__background:hover .cover__overlay {
     opacity: 0.8;
 }
+
+@media screen and (max-width: 1279px) {
+    .cover__background { 
+        min-height: 640px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .cover__background { 
+        min-height: 480px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .cover__background { 
+        min-height: 200px;
+    }
+}
