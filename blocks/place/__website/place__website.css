@@ -1,18 +1,23 @@
 .place__website {
     grid-area: url;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
     align-self: end;
-    min-width: 456px;
+    gap: 12px;
+    max-width: 456px;
 }
 
 @media screen and (max-width: 1023px) {
     .place__website {
-        min-width: 352px; 
+        max-width: 352px;
     }
 }
 
 @media screen and (max-width: 767px) {
     .place__website {
-        min-width: 288px;
+        max-width: 288px;
         padding-left: 16px;
     }
 }

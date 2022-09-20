@@ -1,24 +1,20 @@
 .cover {
-    margin: 0 auto;
     box-sizing: border-box;
-    padding-top: 92px;
-    max-height: 832px;
+    margin: 0 auto;
     max-width: 1184px;
+    padding-top: 92px;
     font-family: 'Inter', Arial, Helvetica, sans-serif;
-    color: #fff;
 }
 
 @media screen and (max-width: 1279px) {
     .cover {
         max-width: 1024px;
-        max-height: 732px;
     }
 }
 
 @media screen and (max-width: 1023px) {
     .cover {
         max-width: 768px;
-        max-height: 570px;
         padding-top: 90px;
     }
 }
@@ -26,7 +22,6 @@
 @media screen and (max-width: 767px) {
     .cover {
         max-width: 320px;
-        max-height: 266px;
         padding-top: 66px;
     }
 }

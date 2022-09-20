@@ -1,10 +1,9 @@
 .intro {
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    align-content: flex-start;
     box-sizing: border-box;
-    padding-top: 92px;
-    padding-left: 148px;
+    padding: 92px 442px 0 148px;
     margin: 0;
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     color: #fff;
@@ -12,20 +11,23 @@
 
 @media screen and (max-width: 1279px) {
     .intro {
-        padding-left: 48px; 
+        padding-left: 48px;
+        padding-right: 286px;
     }
 }
 
 @media screen and (max-width: 1023px) {
     .intro {
         padding-top: 88px;
-        padding-left: 24px; 
+        padding-left: 24px;
+        padding-right: 24px;
     }
 }
 
 @media screen and (max-width: 767px) {
     .intro {
         padding-top: 64px;
-        padding-left: 16px; 
+        padding-left: 16px;
+        padding-right: 16px;
     }
 }
